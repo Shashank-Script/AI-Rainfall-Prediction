@@ -1,0 +1,15 @@
+[project]
+name = "rainfall-prediction-api"
+version = "0.1.0"
+description = "FastAPI backend for AI Rainfall Prediction"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pandas",
+    "numpy",
+    "scikit-learn==1.6.1",
+    "joblib",
+    "python-multipart",
+]
