@@ -27,7 +27,6 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
         "https://ai-rainfall-prediction.vercel.app/",
     ],
     allow_credentials=True,
